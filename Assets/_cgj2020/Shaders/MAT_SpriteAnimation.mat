@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_SpriteAnimation
+  m_Shader: {fileID: -6465566751694194690, guid: 35dc35fbaec396d44b06f3f9457eccc3,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_7A892A4:
+        m_Texture: {fileID: 2800000, guid: 1b9ac01135b9dfa44a61efbe787a1b4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_554A785D: 0
+    - Vector1_63311A84: 6
+    - Vector1_882E5523: 6
+    - Vector1_9B7D9838: 24
+    - Vector1_A7F1DC74: 6
+    m_Colors: []

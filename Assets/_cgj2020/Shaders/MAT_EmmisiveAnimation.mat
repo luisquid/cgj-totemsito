@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_EmmisiveAnimation
+  m_Shader: {fileID: -6465566751694194690, guid: b18e14a0f934ec6499fdb68e6d9f5865,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3560565:
+        m_Texture: {fileID: 2800000, guid: 98ba9aaec448ea149ac437e6a104d8d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_E531FB6A:
+        m_Texture: {fileID: 2800000, guid: f2b3f32d3efbe8440aef05e029c69cb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_5164B84E: 6
+    - Vector1_9ABEAAF1: 0
+    - Vector1_A6EA1911: 6
+    - Vector1_FAE935CB: 6
+    - Vector1_FE789491: 8
+    m_Colors: []

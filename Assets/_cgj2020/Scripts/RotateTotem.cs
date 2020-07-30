@@ -7,12 +7,16 @@ public class RotateTotem : MonoBehaviour
     public float currentLerpTime;
     public float lerpTime;
 
-    public GameObject deadParent;
+    GameObject deadParent;
     Transform originalParent;
-
     Quaternion originalRotation;
     Quaternion targetRotation;
     bool isRotating = false;
+
+    private void OnEnable()
+    {
+        deadParent = GameObject.FindGameObjectWithTag("WorldAxis");
+    }
 
     public void SetRotationParameters(float _vertical, float _horizontal)
     {
@@ -36,7 +40,7 @@ public class RotateTotem : MonoBehaviour
         {
             if (currentLerpTime < lerpTime)
             {
-                currentLerpTime += Time.deltaTime;
+                currentLerpTime += Time.fixedDeltaTime;
                 float perc = currentLerpTime / lerpTime;
 
                 deadParent.transform.rotation = Quaternion.Slerp(originalRotation, targetRotation, perc);

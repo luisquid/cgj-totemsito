@@ -26,7 +26,8 @@ public class Ticker : MonoBehaviour
     {
         width = GetComponent<RectTransform>().rect.width;
         pixelsPerSecond = width / itemDuration;
-        AddTickerItem(fillerItems[0], GameManager.Instance.score);
+        //AddTickerItem(fillerItems[0], GameManager.Instance.score);
+        AddTickerItem(fillerItems[0], 0);
     }
 
     // Update is called once per frame

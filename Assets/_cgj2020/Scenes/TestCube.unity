@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 264244066}
   m_Layer: 0
   m_Name: World Axis
-  m_TagString: Untagged
+  m_TagString: WorldAxis
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -450,8 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLerpTime: 0
-  lerpTime: 0.1
-  deadParent: {fileID: 264244065}
+  lerpTime: 0.2
 --- !u!114 &1514534998
 MonoBehaviour:
   m_ObjectHideFlags: 0
